@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Live Demo
+
+Please open new tab and on address bar of your web browser type: [https://miniweb.netlify.com/](https://miniweb.netlify.com/)
+
 ### Running on local
 
 By using terminal, run command below:
