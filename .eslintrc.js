@@ -1,0 +1,65 @@
+module.exports = {
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "modules": true,
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "plugins": [
+        "react"
+    ],
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "rules":{
+        "react/prefer-stateless-function": 0,
+        "react/self-closing-comp": 0,
+        "react/jsx-filename-extension": 0,
+        "react/prefer-es6-class": 0,
+        "react/jsx-one-expression-per-line": 0,
+        "react/jsx-indent": 0,
+        "react/jsx-wrap-multilines": 0,
+        "function-paren-newline": 0,
+        "import/order": 0,
+        "no-undef": 0,
+        "operator-linebreak": 0,
+        "comma-dangle": 0,
+        "no-use-before-define": 0,
+        // "arrow-parens": 0,
+        "no-console": 0,
+        "no-param-reassign": 0,
+        "no-underscore-dangle": 0,
+        "semi": 0,
+        "no-multiple-empty-lines": 0,
+        "object-curly-spacing": 0,
+        "array-bracket-spacing": 0,
+        "space-in-parens": 0,
+        "strict": 0,
+        "no-unused-vars": 0,
+        "global-require": 0,
+        "no-trailing-spaces": 0,
+        "object-shorthand": 0,
+        "implicit-arrow-linebreak": 0,
+        "indent": 0,
+        "max-len": 0,
+        "prefer-template": 0,
+        "space-before-function-paren": 0,
+        "import/no-dynamic-require": 0,
+        "func-names": 0,
+        "prefer-destructuring": 0,
+        "vars-on-top": 0,
+        "no-var": 0,
+        "no-else-return": 0,
+        "prefer-const": 0,
+        "import/newline-after-import": 0,
+        "arrow-body-style": 0,
+        "quotes": 0,
+        "consistent-return": 0,
+        "prefer-arrow-callback": 0,
+        "linebreak-style": 0,
+        "import/no-unresolved": 0, // use cross-env
+        "padded-blocks": 0
+    }
+};

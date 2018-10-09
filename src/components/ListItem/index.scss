@@ -1,0 +1,26 @@
+.list-item{
+  h4{
+    padding: 0 30px 0 30px;
+  }
+  .section-wrapper{
+    padding: 0 30px 30px 30px;
+    table{
+      td{
+        &.ellipsis{
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          max-width: 10rem;
+        }
+      }
+    }
+    .pagination{
+      text-align: center;
+      li{
+        &.active{
+          background-color: #CCCCCC;
+        }
+      }
+    }
+  }
+}

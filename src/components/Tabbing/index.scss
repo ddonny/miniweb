@@ -1,0 +1,31 @@
+.tab-content{
+  .sub-tab-content{
+    padding: 30px 30px;
+  }
+  .col{
+    padding: 0 0;
+  }
+  h3{
+    padding: 2rem 1rem;
+  }
+  .name-called{
+    color: #0E0ECC;
+    word-break: break-all;
+  }
+  .tabbing-collection{
+    .indicator{
+      display: none;
+    }
+    .tab-col{
+      width: 50%;
+      a{
+        color: #ffffff;
+        background-color: #CFD8DC;
+        &.active{
+          color: #ffffff;
+          background-color: #7B8D93;
+        }
+      }
+    }
+  }
+}
